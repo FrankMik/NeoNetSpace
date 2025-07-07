@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>NeoNetSpace - Home</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img src="ChatGPT Logo 2.png" alt="NeoNetSpice Logo" style="height: 200px; width: 200px;"
+  <nav>
+    <div class="language-switcher">
+      <button class="lang-btn">English</button>
+  <div class="lang-options">
+    <a href="#" data-lang="en"><img src="en.png" alt="English"></a>
+    <a href="#" data-lang="de"><img src="de.png" alt="Deutsch"></a>
+  </div>
+    </div>
+    <ul>
+      <li><a href="index.html"><img src="home.gif" alt="Home" height="32" width="32"/></a></li>
+      <li><a href="services.html"><img src="service.gif" alt="Services" height="32" width="32"/></a></li>
+      <li><a href="about.html"><img src="abour us.gif" alt="About" height="32" width="32"/></a></li>
+      <li><a href="contact.html"><img src="contact us.gif" alt="Contact" height="32" width="32"/></a></li>
+    </ul>
+  </nav>
+</header>
+  <main>
+    <section class="hero">
+      <h2 id="greeting"></h2>
+      <p id="greeting" data-translate="greeting"></p>
+      <h1 data-translate="welcome">Welcome to NeoNetSpace</h1>
+      <p>Your future IT development & support platform</p>
+      <p>Why NeoNetSpace?</p>
+<p>At NeoNetSpace, we’re not just developers – we’re problem-solvers.
+We help businesses automate, scale, and simplify IT – so they can focus on what really matters.</p>
+    </section>
+  </main>
+   <footer>
+    <p>&copy; 2025 NeoNetSpace – All rights reserved.</p>
+     <img src="Logo.png" alt="NeoNetSpace Logo" style="height: 100px; width: 200px;"
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en,german">
+  <head>
+  <meta charset="UTF-8">
+  <title>NeoNetSpace - Services</title>
+  <link rel="stylesheet" herf="style.css">
+  </head>
+  <body>
+    <main>
+      <h1 data-translate ="services">Our Services</h1>
+    <section>
+      <div class="service-boxes">
+    <div class="service">
+      <h2>Web Development</h2>
+      <p>Modern, fast and responsive websites tailored to your needs.</p>
+    </div>
+    <div class="service">
+      <h2>IT Support</h2>
+      <p>Reliable tech support for businesses and individuals.</p>
+    </div>
+    <div class="service">
+      <h2>Custom Solutions</h2>
+      <p>From automation to infrastructure – we build what you need.</p>
+      <p id="greeting" data-translate="greeting"></p>
+    </div>
+  </div>
+      </section>
+  </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en,german">
+  <head>
+  <meta charset="UTF-8">
+  <title>NeoNetSpace - About</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h1 data-translate ="services">Our Services</h1>
+       <section class="vision">
+      <h2>Our Vision</h2>
+      <p>At NeoNetSpace, we believe technology should empower, not overwhelm. That’s why we build intuitive, efficient, and scalable IT solutions – always tailored to your unique needs.</p>
+      </section>
+      <section class="vision">
+      <h2>Why NeoNetSpace?</h2>
+      <p>We combine experience, creativity, and technical expertise to deliver digital solutions that work. Simple as that.</p>
+        <p id="greeting" data-translate="greeting"></p>
+       </section> 
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en,german">
+  <head>
+    <meta charset="UTF-8">
+    <title>NeoNetSpace</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <section id="contact" class="contact">
+  <h1 data-translate="contact">Let’s Get in Touch</h1>
+  <p>Ready to start your project? Send us a message directly:</p>
+   <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+        <p id="greeting" data-translate="greeting"></p>
+      </section>
+      <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef6fc;
+  color: #020303;
+}
+header{
+  background-color: #020303;
+  color: #eef6fc;
+ padding: 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+ padding: 60px 20px;
+  text-align: center;
+  background-color: #eef6fc;
+  border-radius: 12px;
+  margin-top: 1em;
+}
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.hero p {
+  color: #204d74;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 0;
+}
+.content {
+  padding: 40px 20px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #020303;
+  color: #eef6fc;
+  margin-top: 40px;
+}
+.vision {
+  background: linear-gradient(#f7f7f7, #eef6fc);
+  padding: 50px 20px;
+  text-align: center;
+}
+.vision h2 {
+   font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+.vision p {
+  font-size: 1,2em;
+  color: #555;
+   max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+#contact-form{
+ max-width: 500px; 
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+#contact-form button {
+  background: #000000;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#contact-form button:hover {
+  background: #000000;
+}
+.language-switcher {
+  position: absolute;
+  top: 20px;
+  right: 20px
+  z-index: auto;
+}
+.lang-btn {
+  background: black;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.lang-options {
+  display: none;
+  position: absolute;
+  background: black;
+  min-width: 24px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+.lang-options a {
+  display: block;
+  padding: 8px 15px;
+  color: #333;
+  text-decoration: none;
+}
+.lang-options a:hover {
+  background: black;
+}
+.language-switcher:hover .lang-options {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+window.onload = function (){
+  const hour = new Date().getHours();
+  const greeting = document.getElementById("greeting");
+  if (hour < 12){
+    greeting.textContent = "Good morning!";
+  }else if (hour < 18){
+  greeting.textContent ="Good afternoon!";
+  }else {
+  greeting.textContent ="Good evening!";
+}
+};
+const translations = {
+  en: {
+    "welcome": "Welcome to NeoNetSpace",
+    "services": "Our Services",
+    "about": "About Us",
+    "contact": "Contact",
+  },
+  de: {
+    "welcome": "Willkommen bei NeoNetSpace",
+    "services": "Unsere Dienstleistungen",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+  }
+};
+let currentLang = 'en';
+function changeLanguage(lang) {
+  currentLang = lang;
+  document.querySelectorAll("[data-translate]").forEach(el => {
+    const key = el.getAttribute("data-translate");
+    el.textContent = translations[lang][key];
+  });
+  document.querySelector(".lang-btn").textContent = `🌐 ${lang === "en" ? "English" : "Deutsch"}`;
+}
+function updateGreeting() {
+  const hour = new Date().getHours();
+  const greeting = document.getElementById("greeting");
+ let greetingKey;
+  if (hour < 12) greetingKey ="greeting_morning";
+  else if (hour < 18) greetingKey = "greeting_afternoon";
+  else greetingKey = "greeting_evening";
+  greeting.textContent = translations[currentLang][greetingKey];
+}
+document.querySelectorAll(".lang-options a").forEach(link=> {link.addEventListener("click", (e) => {e.preventDefault();
+ changeLanguage(e.target.getAttribute("data-lang"));
+    });
+ });
+document.addEventListener("DOMContentLoaded", updateGreeting);
+
+
+
